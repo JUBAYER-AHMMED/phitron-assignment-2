@@ -8,7 +8,7 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 5px;
-  /* border: 1px solid red; */
+  
 }
 #detail-container {
   position: fixed;
@@ -31,7 +31,7 @@
 
 .drink-box {
   width: 250px;
-  /* height: 300px; */
+  
   margin: 5px;
 
   box-shadow: 4px 4px 8px gray;
@@ -42,13 +42,12 @@
 }
 .drink-box-detail {
   width: 380px;
-  /* height: 300px; */
   margin: 5px auto 0px auto;
   background-color: white;
   box-shadow: 4px 4px 8px gray;
   border-radius: 8px;
   overflow: hidden;
-  /* text-align: center; */
+
 }
 
 .category {
@@ -122,7 +121,6 @@
   text-align: center;
   margin-bottom: 0px;
   padding-bottom: 0;
-  /* color: red; */
 }
 
 .ingredients {
@@ -141,18 +139,9 @@ ul {
 #cart-container {
   width: 25%;
   box-shadow: 4px 4px 8px gray;
-  /* border: 1px solid black; */
   padding: 10px;
-  /* box-sizing: border-box; */
-  /* text-align: center; */
-  /* color: red; */
   border-radius: 5px;
   font-family: sans-serif;
-
-  /* position: fixed; */
-  /* height: inherit ; */
-  /* top: 155px;
-  right: 30px; */
 }
 
 #cart-container2 {
@@ -180,7 +169,6 @@ ul {
   font-size: 16px;
   align-items: center;
   gap: 70px;
-  /* border: 1px solid green; */
 }
 .rows {
   display: flex;
@@ -189,12 +177,10 @@ ul {
   font-size: 16px;
   align-items: center;
   gap: 70px;
-  /* border: 1px solid lightblue; */
   box-shadow: inset 2px 2px 4px rgba(128, 128, 128, 0.219);
   padding: 5px;
   border-radius: 3px;
   box-sizing: border-box;
-  
 }
 
 #name {
@@ -208,7 +194,7 @@ ul {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.6); /* fade effect */
+  background: rgba(0, 0, 0, 0.6);
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -221,7 +207,7 @@ ul {
   padding: 15px;
   border-radius: 8px;
   box-shadow: 4px 4px 8px gray;
-  z-index: 100; /* stays above overlay */
+  z-index: 100;
   margin-top: 30px;
   animation: popIn 0.3s ease;
 }

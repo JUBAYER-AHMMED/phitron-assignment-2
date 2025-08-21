@@ -35,7 +35,7 @@ btn.addEventListener("click", async () => {
 });
 
 const displayProducts = (products) => {
-  productContainer.innerHTML = ""; // clear previous results
+  productContainer.innerHTML = "";
 
   if (!products) {
     productContainer.innerHTML = `<p class="NoMealFound">No drinks found!</p>`;
@@ -89,29 +89,6 @@ if(count <8){
         alert('More than 7 Items!!')
       }
 }
-
-// function showDetails(drink) {
-//   console.log(drink);
-//   const div = document.createElement("div");
-//   div.classList.add("drink-box-detail");
-
-//   div.innerHTML = `
-//   <div class="top"><h2 class='drinkName'>Glass: ${drink.strGlass}</h2>
-//   <i class="fa-solid fa-xmark close" onclick=""></i>
-//     </div>
-//           <hr>
-//     <div class="detailselmt"><img src=${drink.strDrinkThumb} class="drink-img-detail" />
-//     <h3 class="dt">Details</h3>
-//     <h3 class="category2">Category: <span class="bold">${drink.strCategory}</span> </h3>
-//     <h4 class="alc">Alcoholic: <span class="bold">${drink.strAlcoholic}</span></h4>
-//     <p class="para">${drink.strInstructions}</p></div>
-//     `;
-//   detailContainer.appendChild(div);
-
-//   div.querySelector(".close").addEventListener("click", () => {
-//       removeDetails(div);
-//     });
-// }
 
 function showDetails(drink) {
   
