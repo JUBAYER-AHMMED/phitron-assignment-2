@@ -142,12 +142,15 @@ ul {
   padding: 10px;
   border-radius: 5px;
   font-family: sans-serif;
+  height: 700px;
+  /* overflow: auto; */
 }
 
 #cart-container2 {
   width: 100%;
-  overflow: auto;
-  height: inherit;
+  /* overflow: auto; */
+  /* height: inherit; */
+  height: 600px;
 }
 .image {
   border: none;
